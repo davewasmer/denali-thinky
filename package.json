@@ -2,7 +2,7 @@
   "name": "denali-thinky",
   "version": "0.0.1",
   "scripts": {
-    "start": "denali server",
+    "build": "denali build",
     "test": "denali test"
   },
   "keywords": [
@@ -10,6 +10,7 @@
     "denali-addon",
     "addon"
   ],
+  "main": "dist/app/index.js",
   "dependencies": {
     "babel": "^5.8.23",
     "bcrypt": "^0.8.3",
@@ -24,6 +25,7 @@
     "express-request-id": "^1.1.0",
     "lodash-node": "^3.8.0",
     "morgan": "^1.6.1",
-    "response-time": "^2.3.1"
+    "response-time": "^2.3.1",
+    "thinky": "^2.2.3"
   }
 }
